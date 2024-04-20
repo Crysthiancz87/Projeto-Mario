@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="./icon/site.webmanifest">
+    <title>Projeto do Mário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="saimascara()"></div>
+
+    <div class="header">
+        <header>
+            <img src="./assets/icon.png" class="logo-header" />
+            <a href="https://www.linkedin.com/in/crysthiancz/" target="_blank">Home</a>
+            <a href="https://www.linkedin.com/in/crysthiancz/" target="_blank">Fale Conosco</a>
+            <a href="https://www.linkedin.com/in/crysthiancz/" target="_blank">Nossos Serviços</a>
+        </header>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./assets/logo.png" alt="logo-mario" class="logo-mario">
+
+            <p>
+                Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!
+            </p>
+            <p>
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+
+            <button onclick="CliqueiNoBotao()">Entre em Contato</button>
+        </div>
+
+        <div>
+            <img src="./assets/mario.png" alt="mario-luigi" class="img-marioeluigi">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./assets/video.mp4" autoplay muted loop></video>
+
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://www.linkedin.com/in/crysthiancz/" class="link-whatsapp" target="_blank">
+        <img class="whats" src="./assets/whatsapp.png">
+    </a>
+
+
+    <form class="formulario-fale-conosco"
+            action="https://formcarry.com/s/8I0HtGeUB59"
+            method="POST"
+            enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="telefone" placeholder="Telefone" required>
+                <textarea type="text" placeholder="Digite seu problema"></textarea>
+                <button type="submit">Pedir Orçamento</button>
+    </form>
+
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
