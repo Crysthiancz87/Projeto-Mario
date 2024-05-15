@@ -6,6 +6,8 @@ being employed: HTML, CSS, JavaScript and also taking care of responsiveness.</h
 <br>
 Link to see it: <a href="https://projectmb.netlify.app/">Mário Project</a>
 <br>
+<br>
+<br>
 <img src="./assets/PS-projectmb.png" alt="print-scream-tela-projectmb" width="900px">
     
     
